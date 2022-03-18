@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta  charset="UTF-8" >
+    <title>Guide de la sneakers</title>
+    <link rel="stylesheet" href="../css/SNEAKNEWS_mise_en_page.css"> <!--retourne dans le fichier précédent pour ensuite aller vers le dossier css-->
+	
+</head>
+<body>
+	<header>
+		<h1>SNEAK'NEWS</h1>
+		<img img src="../image/trait1.png"/> 
+	</header>
+	  <script>
+		function (){
+		  let button_accueil=document.getElementById("Accueil");
+		  }
+	  </script>
+	  <button_accueil class="Accueil" href="sneaknews.html" style="vertical-align:middle" onclick="document.location.href='../sneaknews.html';"><span>Accueil </span></button_accueil><!--<!--bouton pour allez à la page d'accueil-->-->
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+	 
+	  <h2>CONVERTISSEUR D'ARGENT</h2>
+	<script>
+	  function transfert_dollars(){
+		let input1 = document.getElementById("text1");
+		let input2 = document.getElementById("text2");
+		let valeur1 = input1.value;
+		input2.value = valeur1 * 1.21; <!--converti les euros en dollars-->
+		}
+	  function transfert_euros(){	
+		let input1 = document.getElementById("text1");
+		let input2 = document.getElementById("text2");
+		let valeur2 = input2.value;
+		input1.value = valeur2 / 1.21; <!--converti les dollars en euros-->
+	
+	  }
+	</script>
+	
+	
+	<table style="10px;margin:auto;text-align:center;">
+	  <tr>
+		<td>Prix en €</td>
+		<td></td>
+		<td>Prix en $</td>
+	  </tr>
+	  <tr>
+		<td rowspan="2"><input id="text1" type="text" value=""></input></td>
+		<td><button_transfert id="transfert_dollars" onclick=transfert_dollars()>&#x21D2</button_transfert></td><!--bouton pour convertir les euros en dollars-->
+		<td rowspan="2"><input id="text2" type="text" value=""></input></td>
+	  </tr>
+	  <tr>
+		<td><button_transfert id="transfert_euros" onclick=transfert_euros()>&#x21D0</button_transfert></td><!--bouton pour convertir les dollars en euros-->
+	  </tr>
+	</table>
+	<table style="margin:auto;text-align:center;">
+		<td></td>
+		<td><p>Beaucoup de site des vente de chaussure sont en dollars, donc maintenant grâce à ce convertisseur, tu peux convertir les Dollars en Euros ou les Euros en Dollars.</p></td>
+		<td></td>
+	</table>
+	<br/>
+	<br/> 
+	<table style="margin:auto;text-align:center;border-radius:10px;width:600px;height:50px;border-radius:25px">
+	  <tr>
+		  <td><button class="convertion" href="https://www.sioux.fr/cms/la-chaussure-tout-un-savoir-faire/la-pointure-et-le-chaussant-des-chaussures/calculatrice-de-pointure-de-chaussure/" style="vertical-align:middle"  onclick="window.location.href='https://www.sioux.fr/cms/la-chaussure-tout-un-savoir-faire/la-pointure-et-le-chaussant-des-chaussures/calculatrice-de-pointure-de-chaussure/';" ><span>Clique ici pour trouver ta pointure</span></button></td><!--bouton avec un lien vers un autre site qui sert à trouver ta pointure-->
+	  </tr>
+	</table>
+	<br/>
+	<table style="margin:auto;text-align:center;width:300px;height:50px;">
+	  <tr>
+		  <td><img img src="../image/trait1.png"/></td><!--trait pour séparer les différentes parties-->
+	  </tr>
+	</table>
+	<br/>
+	<br/>
+	<h2>L'HISTOIRE DE LA SNEAKERS</h2>
+	<br/>
+	<table style="margin:auto;text-align:center;">
+	    <tr>
+			<td><img img src="../image/vintage_snkrs.jpg"  style="width:700px;height:300px;border-radius:25px" class="center"/></td>
+		</tr>
+	</table>
+	<br/>
+	<br/>
+	
+	<P style="text-align:justify;margin-right:15px;margin-left:15px;text-justify:inter-word;line-height:2;">L'histoire de la sneaker remonte au début du xxe siècle et est intimement liée à l'utilisation du caoutchouc. En 1916, l'entreprise United States Rubber Company crée Keds, qui commercialise les premières chaussures dotées de semelles en caoutchouc, considérées comme les premières sneakers de l'histoire. Remarquées pour leur confort et leur discrétion, ces chaussures marquent une rupture avec les chaussures traditionnellement utilisées pour un usage quotidien. L'année suivante, Converse crée la Chuck Taylor All Star, des chaussures de basket-ball qui seront par la suite également vendues pour un usage quotidien.
+
+À partir des années 1950, la part du temps consacré au temps libre augmente considérablement. De plus, les sneakers sont de plus en plus utilisées dans les uniformes scolaires. Les ventes de sneakers augmentent de manière exponentielle, jusqu'à venir concurrencer les ventes des chaussures traditionnelles, en cuir. Durant les années 1990, les marques de sneakers s'attachent de plus en plus à l'esthétique de la chaussure et jouent du marketing pour les vendre au plus grand nombre. Les sneakers sont alors moins choisies pour leur confort que pour l'identité qu'elles façonnent pour celui qui les porte.
+
+De 1970 (5 modèles) à 1998 (285 modèles) jusqu'à 2012 (3 371), le nombre de modèles de sneakers aux États-Unis a considérablement augmenté.
+
+Il existe des modèles " de luxe " pouvant valoir jusqu'à 15 000 dollars.
+	</p>
+</body>
+</html>
